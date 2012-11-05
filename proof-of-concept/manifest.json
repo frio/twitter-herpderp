@@ -1,0 +1,16 @@
+{
+  "name": "twitter-herpderp",
+  "version": "0.1",
+  "manifest_version": 2,
+  "description": "Herp a derp tweets derp derp.",
+  "content_scripts": [
+    {
+      "matches": ["*://*.twitter.com/*"],
+      "js":      ["herpderp.js"]
+    }
+  ],
+  "permissions": [
+    "*://*.twitter.com/*",
+    "storage"
+  ]
+}
